@@ -117,7 +117,7 @@ h4:hover {
 }
 @media screen and (max-width: 1024px) {
   #heading p {
-    margin-top: -10%;
+    margin-top: -9%;
   }
   .infobox {
     width:45%;
@@ -226,6 +226,18 @@ h4:hover {
   @media screen and (max-width: 300px) {
   #heading p {
     margin-top: -168%;
+  }
+  .infobox {
+    width:90%;
+    display: inline-block;
+  }
+  .imgicon{
+    margin-top: 33%;
+  }
+  }
+  @media screen and (max-width: 360px) {
+  #heading p {
+    margin-top: -121%;
   }
   .infobox {
     width:90%;
