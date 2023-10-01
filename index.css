@@ -115,7 +115,31 @@ h4:hover {
     width:45%;
   }
 }
+@media screen and (max-width: 1024px) {
+  #heading p {
+    margin-top: -10%;
+  }
+  .infobox {
+    width:45%;
+   display: inline-block;
+  }
+  .imgicon{
+    margin-top: 33%;
+  }
+}
 @media screen and (max-width: 900px) {
+  #heading p {
+    margin-top: -18%;
+  }
+  .infobox {
+    width:50%;
+    display: inline-block;
+  }
+  .imgicon{
+    margin-top: 33%;
+  }
+}
+@media screen and (max-width: 912px) {
   #heading p {
     margin-top: -18%;
   }
@@ -175,6 +199,18 @@ h4:hover {
     margin-top: 33%;
   }
   }
+  @media screen and (max-width: 540px) {
+  #heading p {
+    margin-top: -72%;
+  }
+  .infobox {
+    width:90%;
+    display: inline-block;
+  }
+  .imgicon{
+    margin-top: 33%;
+  }
+  }
 @media screen and (max-width: 400px) {
   #heading p {
     margin-top: -104%;
@@ -197,5 +233,20 @@ h4:hover {
   }
   .imgicon{
     margin-top: 33%;
+  }
+  }
+  @media screen and (max-width: 280px) {
+  #heading p {
+    margin-top: -168%;
+  }
+  .infobox {
+    width:90%;
+    display: inline-block;
+  }
+  .imgicon{
+    margin-top: 60%;
+  }
+  .imgicon-info{
+    margin-left: 60%;
   }
   }
